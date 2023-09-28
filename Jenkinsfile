@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('on Jenkins Server') {
+        stage('Property') {
             steps {
                 sh '''
                 echo "Hello,Jenkins is working"
@@ -9,7 +9,7 @@ pipeline {
                 '''
             }  
         }
-        stage('on App Server'){
+        stage('Artifact'){
             steps{
                 sh'''
                 
