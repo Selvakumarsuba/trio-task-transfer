@@ -13,7 +13,7 @@ pipeline {
             steps{
                 sh'''
                 
-                echo "Hello,Jenkins is working"
+                echo "Hello,Jenkins is working super"
                 
                 
                 '''
